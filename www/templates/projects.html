@@ -1,0 +1,26 @@
+<view title="'Projects'">
+
+  <div class="bar bar-subheader item-input-inset">
+    <label class="item-input-wrapper">
+      <i class="icon ion-ios7-search placeholder-icon"></i>
+      <input id="searchKey" type="search" placeholder="Search" ng-model="searchKey" autocorrect="off" ng-change="search()">
+      <button class="icon ion-close-round placeholder-icon" ng-click="clearSearch()"></button>
+    </label>
+    <!--<button class="button button-clear" ng-click="search()">Search</button>-->
+  </div>
+
+  <content has-header="true" has-subheader="true">
+    <div class="list card projects-menu">
+      <a class="item item-icon-left" ng-repeat="project in projects" href="#/project/{{project.id}}">
+        <div>
+          <img class="item item-avatar" src="/img/{{project.img }}" width="70" height="60"/>
+        </div>
+        <div>
+          <h3>{{project.tittle}}</h3>
+          <p>{{project.objective}}</p>
+        </div>
+      </a>
+    </div>
+  </content>
+
+</view>

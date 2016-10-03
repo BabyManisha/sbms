@@ -1,0 +1,49 @@
+/* Your app's CSS, go crazy, make it your own */
+
+.ionic-logo {
+  display: block;
+  margin: 15px auto;
+  width: 96px;
+  height: 96px;
+}
+
+.details {
+    padding: 0px 12px 20px 12px;
+}
+
+.details img {
+    float: left;
+    margin-right: 12px;
+}
+
+.list {
+    clear: both;
+}
+
+.menu-button{
+  width: 80%;
+  margin: 5% 10%;
+}
+
+.profile-img{
+  margin: 5%;
+  width: 90%;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.projects-menu a{
+  display: flex;
+  padding: 0px;
+  margin: 10px;
+}
+
+.projects-menu a img{
+  padding: 5px;
+  margin: 0px;
+}
+
+.projects-menu a h3, .projects-menu a p{
+  margin: 4px;
+  padding: 5px;
+}
